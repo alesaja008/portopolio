@@ -6,6 +6,13 @@ import corpcommentImg from "@/public/pertamina.png";
 import rmtdevImg from "@/public/idscore.png";
 import wordanalyticsImg from "@/public/metra tv.png";
 import bintangSempurna from "@/public/bintangsempurna.png";
+import drlube from "@/public/mobile apps.png";
+import mentari from "@/public/mentari.jpeg";
+import monev from "@/public/monev.jpeg";
+import sikompak from "@/public/sikompak.jpeg";
+import telkommetra from "@/public/telkommetra.jpeg";
+import telkompajakku from "@/public/telkompajakku.jpeg";
+import career from "@/public/career.jpeg";
 
 export const links = [
   {
@@ -36,28 +43,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "edspert.id bootcamp",
+    location: "Online",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "learn react js 1 month",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "hacktiv8 bootcamp",
+    location: "Online",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "learn react js 1 month",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Food and Beverage Manager",
+    location: "Kota Tangerang",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I build other people's businesses and manage all operations and traffic.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2018 ",
+  },
+  {
+    title: "UI/UX Design ",
+    location: "PT. Bintang Sempurna",
+    description:
+      "I build other people's businesses and manage all operations and traffic.",
+    icon: React.createElement(FaReact),
+    date: "2020 - Now ",
+  },
+  {
+    title: "research and development",
+    location: "PT. Bintang Sempurna",
+    description:
+      "I build other people's businesses and manage all operations and traffic.",
+    icon: React.createElement(FaReact),
+    date: "2017-2020 ",
+  },
+  {
+    title: "operator machine",
+    location: "PT. Bintang Sempurna",
+    description:
+      "I build other people's businesses and manage all operations and traffic.",
+    icon: React.createElement(FaReact),
+    date: "2015-2017 ",
+  },
+  {
+    title: "Computer Graphics Operator",
+    location: "PT. Bintang Sempurna",
+    description:
+      "I build other people's businesses and manage all operations and traffic.",
+    icon: React.createElement(FaReact),
+    date: "2013 - 2015 ",
   },
 ] as const;
 
@@ -65,30 +104,80 @@ export const projectsData = [
   {
     title: "pertaminalubricants.com",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["Bootstrap", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "lorem aja dulu dah",
+    tags: ["Codeignaiter", "Boostrap"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "bintangsempurna.co.id",
+    title: "bintangsempurna.co.id {new release}",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "lorem aja dulu dah",
+    tags: ["React", "Nodejs", "PostgreSQL", "Boostrap", "Strapi"],
     imageUrl: bintangSempurna,
   },
   {
     title: "idscore.id",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "lorem aja dulu dah",
+    tags: ["Codeignaiter", "Boostrap"],
     imageUrl: rmtdevImg,
   },
   {
     title: "metra.tv",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "lorem aja dulu dah",
+    tags: ["Laravel", "Bootstrap"],
     imageUrl: wordanalyticsImg,
+  },
+  // tambahan
+  {
+    title: "drlube pertaminalubricants",
+    description:
+      "lorem aja dulu dah",
+    tags: ["Laravel", "Bootstrap"],
+    imageUrl: drlube,
+  },
+  {
+    title: "mentarianakku.com",
+    description:
+      "lorem aja dulu dah",
+    tags: ["WordPress"],
+    imageUrl: mentari,
+  },
+  {
+    title: "monev PUPR",
+    description:
+      "lorem aja dulu dah",
+    tags: ["Codeignaiter", "Boostrap"],
+    imageUrl: monev,
+  },
+  {
+    title: "sikompak PUPR",
+    description:
+      "lorem aja dulu dah",
+    tags: ["Codeignaiter", "Bootstrap"],
+    imageUrl: sikompak,
+  },
+  {
+    title: "telkommetra.co.id",
+    description:
+      "lorem aja dulu dah",
+    tags: ["Laravel", "Bootstrap"],
+    imageUrl: telkommetra,
+  },
+  {
+    title: "Telkompajakku",
+    description:
+      "lorem aja dulu dah",
+    tags: ["WordPress"],
+    imageUrl:telkompajakku,
+  },
+  {
+    title: "PT bintang sempurna career",
+    description:
+      "lorem aja dulu dah",
+    tags: ["WordPress"],
+    imageUrl: career,
   },
   
 ] as const;
@@ -96,21 +185,15 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "Boostrap",
   "JavaScript",
-  "TypeScript",
-  "React",
+  "React JS",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Adobe Collection"
 ] as const;
