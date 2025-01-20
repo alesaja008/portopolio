@@ -98,6 +98,14 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2013 - 2015 ",
   },
+  {
+    title: "Frontend Developer",
+    location: "PT. Zayn Developer Technology",
+    description:
+      "I build other people's businesses and manage all operations and traffic.",
+    icon: React.createElement(FaReact),
+    date: "2021 ",
+  },
 ] as const;
 
 export const projectsData = [
@@ -109,10 +117,10 @@ export const projectsData = [
     imageUrl: corpcommentImg,
   },
   {
-    title: "bintangsempurna.co.id {new release}",
+    title: "bintangsempurna.co.id",
     description:
       "lorem aja dulu dah",
-    tags: ["React", "Nodejs", "PostgreSQL", "Boostrap", "Strapi"],
+    tags: ["Next js", "Nodejs", "Boostrap", "SQL", "Laravel", "Vue JS"],
     imageUrl: bintangSempurna,
   },
   {
@@ -195,5 +203,10 @@ export const skillsData = [
   "Redux",
   "Express",
   "Framer Motion",
-  "Adobe Collection"
+  "Adobe Collection",
+  "Research and Development",
+  "SketchUp",
+  "Photography",
+  "Branding Company",
+  "analytical research,"
 ] as const;
